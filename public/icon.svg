@@ -1,0 +1,15 @@
+<!-- Copyright 2026 Norman.S.L.Dai. Licensed under Apache License 2.0. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="48" x2="448" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="128" y="112" width="256" height="320" rx="24" fill="#FFFFFF"/>
+  <rect x="176" y="176" width="160" height="16" rx="8" fill="#0D9488" opacity="0.85"/>
+  <rect x="176" y="224" width="128" height="16" rx="8" fill="#94A3B8"/>
+  <rect x="176" y="272" width="144" height="16" rx="8" fill="#94A3B8"/>
+  <circle cx="344" cy="152" r="20" fill="#0D9488"/>
+</svg>

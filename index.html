@@ -1,0 +1,68 @@
+<!doctype html>
+<!--
+  SharpNote (锐记) — index.html
+  Copyright 2026 Norman.S.L.Dai <norman-dai@fixmail.com>
+  Licensed under the Apache License, Version 2.0
+  @date 2026-06-20
+-->
+
+<html lang="zh-CN" data-theme="dark" data-ui-style="sublime">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SharpNote</title>
+
+  </head>
+
+  <body>
+
+    <div id="app">
+
+      <header id="title-bar"></header>
+      <nav id="menu-bar"></nav>
+      <div id="main-layout">
+
+        <aside id="sidebar-pane" class="hidden"></aside>
+
+        <div id="sidebar-splitter" class="hidden"></div>
+
+        <div id="main-pane">
+
+          <div id="tab-bar"></div>
+
+          <div id="find-replace-bar" class="hidden"></div>
+
+          <div id="editor-workspace">
+
+            <div id="editor-pane">
+
+              <div id="editor"></div>
+
+            </div>
+
+            <div id="json-splitter" class="hidden"></div>
+
+            <div id="json-preview-pane" class="hidden"></div>
+
+          </div>
+
+          <div id="status-bar"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+
+  </body>
+
+</html>
+
